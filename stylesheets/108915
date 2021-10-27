@@ -1,0 +1,95 @@
+body {
+		font-size: 1em;
+		font-family: "Verdana", "Tahoma", sans-serif;
+}
+body > div {
+		width: 800px;
+		margin: auto auto auto auto;
+		text-align: center;
+}
+
+label {
+		display: block;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		letter-spacing: 0.2em;
+}
+
+input, select {
+	 font-family: monospace;
+		font-size: 1.2em;
+		padding: 0.2em;
+		margin-bottom: 0.5em;
+}
+
+form.new_record > p {
+		margin: 0;
+}
+form.new_record > input#record_submit {
+		font-size: 1em;
+}
+
+form.new_record > p > input#record_record_name {
+	 margin-left: 2.9em;
+	 text-align: right
+}
+
+span.field_note {
+		display: block;
+		font-size: 0.8em;
+		color: #888;
+		width: 480px;
+		margin: 0 auto 0 auto;
+}
+div.formError {
+		color: #ff6666;
+}
+div.field_with_errors > input {
+		background-color: #ffdddd;
+}
+
+form.new_record > p.submit  {
+		margin-top: 1em;
+		margin-bottom: 1em;
+}
+
+h1#logo {
+		display: block;
+		margin: 0 auto 0 auto;
+}
+
+h1#logo.ipq {
+		width: 330px;
+		height: 245px;
+		background-image: url(../images/ipq_logo.png);
+}
+h1#logo.mypenis {
+		display: block;
+		width: 330px;
+		height: 206px;
+		margin: 0 auto 0 auto;
+		background-image: url(../images/mypenis_logo.jpg);
+}
+
+h1#logo > span {
+		display: none;
+}
+
+footer {
+		margin-top: 2em;
+		color: #888;
+}
+footer p {
+		margin: 0;
+		font-size: 0.9em;
+}
+footer a {
+		color: #888;
+}
+small {
+		font-size: 0.6em;
+		color: #aaa;
+}
+small a {
+		color: #aaa;
+}
