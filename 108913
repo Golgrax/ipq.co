@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>IPQuick: create dns records instantly</title>
+  <link href="stylesheets/lilybeans.css%3F1414453872.css" media="screen" rel="stylesheet" type="text/css" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="/6teUF7iwHKj/7wizGVyY5StMILHnhLeN8vw6e4E6ys=" name="csrf-token" />
+  <meta name="description" content="Create a dns record for an IP address instantly" /> 
+  <meta keywords="dns,hostname,fqdn,instant,quick,free,ipv4,ipv6" />
+  
+</head>
+<body>
+  <div>
+    <header>
+      <h1 id="logo" class="ipq"><span>ipq.co</span></h1>
+      <p class="tagline">Create a dns record for an IP address instantly</p>
+    </header>
+
+    
+<form accept-charset="UTF-8" action="https://ipq.co/records" class="new_record" id="new_record" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/6teUF7iwHKj/7wizGVyY5StMILHnhLeN8vw6e4E6ys=" /></div>
+
+<p>
+<label for="record_content">IP Address</label>
+
+<input id="record_content" name="record[content]" placeholder="IPv4 or IPv6 address" size="48" title="IPv4 or IPv6 address" type="text" />
+</p>
+
+<p>
+<label for="record_record_name">Dns Name</label>
+
+<input id="record_record_name" name="record[record_name]" placeholder="[randomly chosen]" size="28" type="text" /> .
+<select id="record_domain_id" name="record[domain_id]"><option value="2">ipq.co</option>
+<option value="4">fdns.uk</option></select>
+</p>
+
+<p class="submit">
+<input name="commit" type="submit" value="Create DNS Record" />
+</p>
+
+<p class="email">
+<label for="record_email">Email Address</label>
+<span class="field_note">optional, but will allow you to update the record later<br/>(once we implement it)</span>
+
+<input id="record_email" name="record[email]" placeholder="you@example.com" size="22" type="text" />
+</p>
+
+</form>
+    <footer>
+      <p>Follow <a href="http://twitter.com/ipq_co">@ipq_co</a> on twitter, <a href="mailto:hello@ipq.co">email us</a>, or read <a href="http://johnleach.co.uk/words/tag/ipq.co">the blog</a></p>
+      <p><a href="terms.html">Terms of the use of this service.</a></p>
+    </footer>
+  </div>
+</body>
+</html>
